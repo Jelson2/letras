@@ -60,7 +60,7 @@ O projeto usa o fluxo de **refresh token**, então você precisa gerar as creden
 
 ### Arquivo `secrets.h`
 
-Crie um arquivo `secrets.h` na mesma pasta do `.ino`:
+Dentro da pasta `letras/`, copie o `secrets.example.h` para `secrets.h` e preencha com suas credenciais:
 
 ```cpp
 #pragma once
@@ -82,10 +82,10 @@ Crie um arquivo `secrets.h` na mesma pasta do `.ino`:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Jelson2/NOME-DO-REPOSITORIO.git
+   git clone https://github.com/Jelson2/letras.git
    ```
 2. Crie o `secrets.h` (veja acima).
-3. Abra o projeto na Arduino IDE, selecione sua placa ESP32 e a porta, e faça o upload.
+3. 3. Abra o arquivo `letras/letras.ino` na Arduino IDE, selecione sua placa ESP32 e a porta, e faça o upload.
 4. Na primeira execução, conecte-se à rede Wi-Fi **`MeuESP`** (senha: `MinhaSenha`) e escolha sua rede no portal que abrir.
 5. Toque uma música no Spotify e acompanhe a letra no display.
 
