@@ -1,0 +1,14 @@
+# Credenciais (NUNCA enviar ao GitHub)
+secrets.h
+
+# Arduino / PlatformIO
+build/
+.pio/
+.vscode/
+*.elf
+*.bin
+*.map
+
+# Sistema
+.DS_Store
+Thumbs.db
