@@ -2,8 +2,12 @@
 
 Um display de letras sincronizadas para o que você está ouvindo no Spotify, feito com **ESP32** e um **OLED SSD1306**. O ESP32 consulta a música que está tocando, busca a letra sincronizada no [LRCLIB](https://lrclib.net) e mostra no display a linha certa no momento certo, como um karaokê em miniatura.
 
-<!-- Adicione aqui uma foto ou GIF do projeto funcionando -->
-<!-- ![Demo](docs/demo.gif) -->
+
+
+https://github.com/user-attachments/assets/f3c147f4-315c-4dd3-b3a1-7c5dfcc91fc3
+
+
+
 
 ## ✨ Funcionalidades
 
