@@ -85,7 +85,7 @@ Dentro da pasta `letras/`, copie o `secrets.example.h` para `secrets.h` e preenc
    git clone https://github.com/Jelson2/letras.git
    ```
 2. Crie o `secrets.h` (veja acima).
-3. 3. Abra o arquivo `letras/letras.ino` na Arduino IDE, selecione sua placa ESP32 e a porta, e faça o upload.
+3. Abra o arquivo `letras/letras.ino` na Arduino IDE, selecione sua placa ESP32 e a porta, e faça o upload.
 4. Na primeira execução, conecte-se à rede Wi-Fi **`MeuESP`** (senha: `MinhaSenha`) e escolha sua rede no portal que abrir.
 5. Toque uma música no Spotify e acompanhe a letra no display.
 
